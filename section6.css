@@ -1,0 +1,95 @@
+.section-class {
+  text-align: center;
+  font-size: 48px;
+}
+.section-p {
+  text-align: center;
+  font-size: 22px;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+}
+
+.article-div1 {
+  width: 80px;
+  height: 80px;
+  border: 6px solid rgb(255, 136, 0);
+  border-radius: 50%;
+  margin-left: -231%;
+  margin-top: 13%;
+}
+.article-div2 {
+  width: 80px;
+  height: 80px;
+  border: 6px solid rgb(4, 4, 252);
+  border-radius: 50%;
+  margin-left: -424%;
+  margin-top: 39%;
+}
+.article-div3 {
+  width: 80px;
+  height: 80px;
+  border: 6px solid rgb(255, 0, 234);
+  border-radius: 50%;
+  margin-left: -105%;
+  margin-top: 63%;
+}
+.article-div4 {
+  width: 80px;
+  height: 80px;
+  border: 6px solid red;
+  border-radius: 50%;
+  margin-left: 870%;
+  margin-top: -386%;
+}
+.article-div5 {
+  width: 80px;
+  height: 80px;
+  border: 6px solid green;
+  border-radius: 50%;
+  margin-left: 980%;
+  margin-top: 60%;
+}
+.article-div6 {
+  width: 80px;
+  height: 80px;
+  border: 6px solid rgb(60, 91, 164);
+  border-radius: 50%;
+  margin-left: 730%;
+  margin-top: 20%;
+}
+
+.section-article {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.text-section {
+  text-align: center;
+  margin-left: -68px;
+  background: radial-gradient(
+        circle at 100% 100%,
+        #ffffff 0,
+        #ffffff 12px,
+        transparent 12px
+      )
+      0% 0%/17px 17px no-repeat,
+    radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 12px, transparent 12px)
+      100% 0%/17px 17px no-repeat,
+    radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 12px, transparent 12px)
+      0% 100%/17px 17px no-repeat,
+    radial-gradient(circle at 0 0, #ffffff 0, #ffffff 12px, transparent 12px)
+      100% 100%/17px 17px no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50% / calc(100% - 10px)
+      calc(100% - 34px) no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50% / calc(100% - 34px)
+      calc(100% - 10px) no-repeat,
+    linear-gradient(40deg, transparent 0%, rgb(51, 51, 164) 100%);
+  border-radius: 20%;
+  padding: 25px;
+  box-sizing: border-box;
+}
+.border {
+  display: flex;
+  margin: 20px;
+}

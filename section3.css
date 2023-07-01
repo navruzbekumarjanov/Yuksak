@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.first {
+  font-size: 28px;
+  letter-spacing: 1px;
+  margin-left: 40px;
+  margin-top: 10%;
+}
+.first h1 {
+  border-bottom: 3px solid yellow;
+  width: 33%;
+  margin-left: 30%;
+}
+.section-container {
+  display: flex;
+  margin: 20px;
+}
+.section-div {
+  cursor: pointer;
+  width: 400px;
+  height: 380px;
+  padding: -1px;
+  margin: 30px;
+  justify-content: center;
+  background: radial-gradient(
+        circle at 100% 100%,
+        #ffffff 0,
+        #ffffff 12px,
+        transparent 12px
+      )
+      0% 0%/17px 17px no-repeat,
+    radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 12px, transparent 12px)
+      100% 0%/17px 17px no-repeat,
+    radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 12px, transparent 12px)
+      0% 100%/17px 17px no-repeat,
+    radial-gradient(circle at 0 0, #ffffff 0, #ffffff 12px, transparent 12px)
+      100% 100%/17px 17px no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50% / calc(100% - 10px)
+      calc(100% - 34px) no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50% / calc(100% - 34px)
+      calc(100% - 10px) no-repeat,
+    linear-gradient(40deg, transparent 0%, yellow 100%);
+  border-radius: 17px;
+  padding: 3px;
+  box-sizing: border-box;
+}
+.heading1 {
+  display: flex;
+  width: 100%;
+}
+.section-div h3 {
+  width: 65%;
+  margin-left: 20%;
+  padding: 5px;
+  background: rgb(255, 201, 75);
+  font-size: 17px;
+  border-radius: 5px;
+  text-align: center;
+  justify-content: center;
+}
+.section-div p {
+  text-align: center;
+  margin: 15px;
+}
+.section-div-div2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 15px;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}

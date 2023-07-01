@@ -1,0 +1,56 @@
+.section4 {
+  display: flex;
+  position: relative;
+}
+.article-section1 {
+  width: 500px;
+  height: 400px;
+  margin-left: 15%;
+  display: inline;
+  margin-top: 15%;
+}
+
+.article-section1 p {
+  font-size: 20px;
+  color: rgb(97, 97, 141);
+}
+.article-section1 h1 {
+  font-size: 30px;
+}
+.button-div {
+  margin-top: 10%;
+  width: 200px;
+  height: 55px;
+  font-size: 20px;
+  border: 1px solid blue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 8px;
+  background: none;
+}
+.circle {
+  width: 405px;
+  height: 510px;
+  margin-left: 85%;
+  border-radius: 40%;
+  margin-top: 7%;
+}
+
+.article-section2 {
+  position: absolute;
+  margin-left: -4%;
+  margin-top: -2%;
+}
+.article-section1  h1 {
+  margin: 25px;
+  margin-left: -3px;
+
+}
+.teacher {
+  margin-top: -100%;
+  margin-top: -900px;
+  margin-left: 81%;
+  justify-content: center;
+}
+.padding-div {
+  margin-top: -70px;
+}
